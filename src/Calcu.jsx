@@ -25,10 +25,10 @@ function Calculator() {
         setResult(num1 * num2);
         break;
       case "divide":
-        setResult(num2 !== 0 ? num1 / num2 : "Cannot divide by zero");
+        setResult(num2 !== 0 ? num1 / num2 : "Result is undefined");
         break;
       case "modulo":
-        setResult(num2 !== 0 ? num1 % num2 : "Cannot modulo by zero");
+        setResult(num2 !== 0 ? num1 % num2 : "Result is undefined");
         break;
       default:
         break;
